@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ExamenFinal"
+    }
+  },
+  "defaultProject": "ExamenFinal",
+  "cli": {
+    "analytics": false
+  }
 }
