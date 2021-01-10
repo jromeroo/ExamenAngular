@@ -25,10 +25,15 @@ const routes: Routes = [
       {
         path: 'contactenos',
         loadChildren: () => import('./modules/contactenos/contactenos.module').then(m => m.ContactenosModule)
+
       },
       {
         path: 'administrador',
         loadChildren: () => import('./modules/administrador/administrador.module').then(m => m.AdministradorModule)
+      },
+      {
+        path: 'auth',
+        loadChildren: () => import('./modules/auth/auth.module').then(m => m.AuthModule)
       }
     ]
   },

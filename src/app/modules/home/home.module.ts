@@ -12,6 +12,6 @@ import { HomeComponent } from './pages/home/home.component';
     HomeRoutingModule
   ]
 })
-export class HomeModule { }
+export class HomeModule {}
 
 
