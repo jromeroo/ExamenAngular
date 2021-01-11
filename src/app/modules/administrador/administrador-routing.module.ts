@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AdministradorComponent } from './pages/administrador/administrador.component';
-
 const routes: Routes = [
   {
     path: '',
